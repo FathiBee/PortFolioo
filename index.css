@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapts.com/css??fanily-Roboto+Slab:wght@500&display=swap');
+
+
+:root{
+    --yellow-theme-background-color : rgb(243, 246, 248);
+    --yellow-theme-main-color: #6893b6;
+    --yellow-theme-sub-text-color: #b01e1e;
+    --yellow-theme-nav-background-color : rgb(24, 72, 100) ;
+
+
+}
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+html{
+    font-size: 62.5%;
+    height: 100%;
+
+}
+body{
+    background: var(--yellow-theme-main-color);
+    height: 100%;
+    /* background: transparent; */
+
+}
+#root{
+    height: 100%;
+}
+.particles-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0; /* Behind everything */
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.App {
+  position: relative;
+  height: 100%;
+  z-index: 0;
+}
